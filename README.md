@@ -3,12 +3,13 @@
 ## using Angular 6+, Bootstrap 4 and templet/assets from <a href="https://github.com/akveo/nebular">Nebular</a>
 
 
-##Getting started:
+## Getting started:
+
 ```
-git clone https://github.com/POC-CEN3031/ng_picMap.git;
-npm i;
+git clone https://github.com/POC-CEN3031/ng_picMap.git
+npm i
 ng serve;
-http://localhost:4200;
+http://localhost:4200
 ```
 
 ## Documentation

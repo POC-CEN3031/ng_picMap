@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormsComponent } from './forms.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
+import { NewPostComponent } from './new-post/new-post.component';
 
 const routes: Routes = [{
   path: '',
@@ -14,6 +15,9 @@ const routes: Routes = [{
   }, {
     path: 'layouts',
     component: FormLayoutsComponent,
+  },{
+    path: 'newpost',
+    component: NewPostComponent,
   }],
 }];
 
@@ -33,4 +37,5 @@ export const routedComponents = [
   FormsComponent,
   FormInputsComponent,
   FormLayoutsComponent,
+  NewPostComponent,
 ];
