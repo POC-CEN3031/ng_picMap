@@ -115,6 +115,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'Form Layouts',
         link: '/pages/forms/layouts',
       },
+      {
+        title: 'New Post',
+        link: '/pages/forms/newpost',
+      },
     ],
   },
   {
