@@ -17,6 +17,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Forms',
+    icon: 'nb-compose',
+    children: [
+      {
+        title: 'Submit New Post',
+        link: '/pages/forms/newpost',
+      },
+      {
+        title: 'Form Inputs',
+        link: '/pages/forms/inputs',
+      },
+      {
+        title: 'Form Layouts',
+        link: '/pages/forms/layouts',
+      },
+      
+    ],
+  },
+  {
     title: 'Maps',
     icon: 'nb-location',
     children: [
@@ -103,24 +122,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
-  {
-    title: 'Forms',
-    icon: 'nb-compose',
-    children: [
-      {
-        title: 'Form Inputs',
-        link: '/pages/forms/inputs',
-      },
-      {
-        title: 'Form Layouts',
-        link: '/pages/forms/layouts',
-      },
-      {
-        title: 'New Post',
-        link: '/pages/forms/newpost',
-      },
-    ],
-  },
+  
   {
     title: 'Components',
     icon: 'nb-gear',
