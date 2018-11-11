@@ -5,6 +5,7 @@ import { FormsComponent } from './forms.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
 import { NewPostComponent } from './new-post/new-post.component';
+import { ViewPostComponent } from './view-pst/view-post.component';
 
 const routes: Routes = [{
   path: '',
@@ -18,6 +19,9 @@ const routes: Routes = [{
   },{
     path: 'newpost',
     component: NewPostComponent,
+  },{
+    path: 'viewpost',
+    component: ViewPostComponent,
   }],
 }];
 
@@ -38,4 +42,5 @@ export const routedComponents = [
   FormInputsComponent,
   FormLayoutsComponent,
   NewPostComponent,
+  ViewPostComponent,
 ];
