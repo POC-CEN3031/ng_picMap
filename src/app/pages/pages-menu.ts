@@ -17,7 +17,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Forms n page n shit',
+    title: 'Forms n page n stuff',
     icon: 'nb-compose',
     children: [
       {
