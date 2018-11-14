@@ -14,10 +14,15 @@
     "last 2 versions",
     "IE 11"
   ],
+  "engines": { "node": "8.11.4", "npm": "6.4.1" } ,
   "scripts": {
+
+    
+    "preinstall": "npm install -g http-server" ,
+
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
-    "start": "ng serve",
+    "start": "http-server dist/",
     "build": "ng build",
     "build:prod": "npm run build -- --prod --aot",
     "test": "ng test",
